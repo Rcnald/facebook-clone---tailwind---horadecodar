@@ -654,6 +654,11 @@ video {
   background-color: rgb(66 183 42 / var(--tw-bg-opacity));
 }
 
+.bg-gray-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+}
+
 .p-4 {
   padding: 1rem;
 }
@@ -778,6 +783,36 @@ video {
 .placeholder-gray-600::placeholder {
   --tw-placeholder-opacity: 1;
   color: rgb(75 85 99 / var(--tw-placeholder-opacity));
+}
+
+.placeholder-gray-100::-moz-placeholder {
+  --tw-placeholder-opacity: 1;
+  color: rgb(243 244 246 / var(--tw-placeholder-opacity));
+}
+
+.placeholder-gray-100::placeholder {
+  --tw-placeholder-opacity: 1;
+  color: rgb(243 244 246 / var(--tw-placeholder-opacity));
+}
+
+.placeholder-gray-500::-moz-placeholder {
+  --tw-placeholder-opacity: 1;
+  color: rgb(107 114 128 / var(--tw-placeholder-opacity));
+}
+
+.placeholder-gray-500::placeholder {
+  --tw-placeholder-opacity: 1;
+  color: rgb(107 114 128 / var(--tw-placeholder-opacity));
+}
+
+.placeholder-gray-200::-moz-placeholder {
+  --tw-placeholder-opacity: 1;
+  color: rgb(229 231 235 / var(--tw-placeholder-opacity));
+}
+
+.placeholder-gray-200::placeholder {
+  --tw-placeholder-opacity: 1;
+  color: rgb(229 231 235 / var(--tw-placeholder-opacity));
 }
 
 .hover\:bg-main-blue-hover:hover {
@@ -954,6 +989,46 @@ video {
   .md\:placeholder-gray-500::placeholder {
     --tw-placeholder-opacity: 1;
     color: rgb(107 114 128 / var(--tw-placeholder-opacity));
+  }
+
+  .md\:placeholder-gray-100::-moz-placeholder {
+    --tw-placeholder-opacity: 1;
+    color: rgb(243 244 246 / var(--tw-placeholder-opacity));
+  }
+
+  .md\:placeholder-gray-100::placeholder {
+    --tw-placeholder-opacity: 1;
+    color: rgb(243 244 246 / var(--tw-placeholder-opacity));
+  }
+
+  .md\:placeholder-gray-600::-moz-placeholder {
+    --tw-placeholder-opacity: 1;
+    color: rgb(75 85 99 / var(--tw-placeholder-opacity));
+  }
+
+  .md\:placeholder-gray-600::placeholder {
+    --tw-placeholder-opacity: 1;
+    color: rgb(75 85 99 / var(--tw-placeholder-opacity));
+  }
+
+  .md\:placeholder-gray-200::-moz-placeholder {
+    --tw-placeholder-opacity: 1;
+    color: rgb(229 231 235 / var(--tw-placeholder-opacity));
+  }
+
+  .md\:placeholder-gray-200::placeholder {
+    --tw-placeholder-opacity: 1;
+    color: rgb(229 231 235 / var(--tw-placeholder-opacity));
+  }
+
+  .md\:placeholder-gray-400::-moz-placeholder {
+    --tw-placeholder-opacity: 1;
+    color: rgb(156 163 175 / var(--tw-placeholder-opacity));
+  }
+
+  .md\:placeholder-gray-400::placeholder {
+    --tw-placeholder-opacity: 1;
+    color: rgb(156 163 175 / var(--tw-placeholder-opacity));
   }
 
   .md\:shadow-xl {
